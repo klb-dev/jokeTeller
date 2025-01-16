@@ -1,0 +1,132 @@
+/* https://giphy.com/gifs/archiecomics-archie-comics-episode-10-archies-funhouse-26AHyU1kK6DSN22ZO */
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #6295a5;
+	height: 100vh;
+  font-family: 'Sour Gummy', cursive;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	height: 30vh;
+}
+
+.title {
+	color: #f2f2f2;
+	font-size: 6rem;
+	letter-spacing: 3px;
+}
+
+.jokeChoice {
+	color: #f2f2f2;
+	font-size: 1.5rem;
+}
+
+.jokeChoice label {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+	accent-color: #84fab0;
+  cursor: pointer;
+}
+
+.container {
+	height: 70vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(./assets/laughingDog.gif);
+	background-size: contain;
+	background-position: center right;
+	background-repeat: no-repeat;
+	gap: 3em;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	width: 300px;
+	height: 100px;
+	font-family: 'Sour Gummy', cursive;
+	font-size: 40px;
+  font-weight: 900;
+	color: #333;
+	background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+	filter: brightness(120%);
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:disabled {
+	cursor: default;
+	filter: brightness(30%);
+}
+
+/* media query */
+@media screen and (max-width: 500px) {
+	.title {
+		font-size: 2.5rem;
+		margin-top: 1em;
+	}
+
+	.jokeChoice {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 1.2rem;
+	}
+
+	.container {
+		background-position: center center;
+		background-size: cover;
+	}
+
+	button {
+		box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+	}
+}
+
+@media  screen and (max-width: 1200px) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .jokeChoice {
+    font-size: 2rem;
+  }
+
+  button {
+    width: 350px;
+    height: 100px;
+    font-size: 40px;
+  }
+
+  .container {
+		background-position: center center;
+		background-size: cover;
+	}
+
+}

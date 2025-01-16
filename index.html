@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Teller</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1 class="title">
+            Joke Teller
+        </h1>
+        <div class="jokeChoice">
+            <input type="radio" name="joke" id="programming" value="programming" checked>
+            <label for="programming">Programming</label>
+            <input type="radio" name="joke" id="misc" value="misc">
+            <label for="misc">Miscellaneous</label>
+            <input type="radio" name="joke" id="dark" value="dark">
+            <label for="dark">Dark</label>
+            <input type="radio" name="joke" id="pun" value="pun">
+            <label for="pun">Pun</label>
+            <input type="radio" name="joke" id="spooky" value="spooky">
+            <label for="spooky">Spooky</label>
+        </div>
+    </div>
+    <div class="container">
+
+        <button id="btn">
+            Tell Me A Joke
+        </button>
+        <audio id="audio" controls hidden></audio>
+    </div>
+    <!-- Script -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
