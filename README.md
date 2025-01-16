@@ -1,7 +1,5 @@
-**Unsure why I have a `Thumbs.db` added to my repo, I do not have a database on my local tree. Not sure how to remove it from my repo.**
-
 # Joke Teller
-![Joke Teller image](assets/laughingDog.gif)
+![Joke Teller image](assets/jokeTeller.png)
 
 # Description
 A dynamic joke-telling website where users can choose their preferred joke categories. To engage users, it features an animated GIF of a laughing white dog for added inspiration. The site is fully responsive across all devices and integrates a text-to-speech API from the Rapid API marketplace to deliver jokes audibly.
