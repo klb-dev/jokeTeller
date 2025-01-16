@@ -1,3 +1,5 @@
+**Unsure why I have a `Thumbs.db` added to my repo, I do not have a database on my local tree. Not sure how to remove it from my repo.**
+
 # Joke Teller
 ![Joke Teller image](assets/laughingDog.gif)
 
